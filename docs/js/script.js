@@ -1,18 +1,1 @@
-$(function () {
-	menuResponsivo();
-});
-
-function menuResponsivo() {
-	var abrir = $(".menu-abrir");
-	var fechar = $(".menu-fechar");
-	var doc = $(document.documentElement);
-	abrir.click(function () {
-		doc.addClass("menu-ativo");
-	});
-	doc.click(function (event) {
-		if (event.target === document.documentElement) {
-			doc.removeClass("menu-ativo");
-		}
-	});
-}
-
+function menuResponsivo(){var n=$(".menu-abrir"),e=($(".menu-fechar"),$(document.documentElement));n.click(function(){e.addClass("menu-ativo")}),e.click(function(n){n.target===document.documentElement&&e.removeClass("menu-ativo")})}$(function(){menuResponsivo()});
