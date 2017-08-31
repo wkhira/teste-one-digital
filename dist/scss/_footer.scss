@@ -1,0 +1,40 @@
+/* Footer */
+.footer {
+	color:$branco;
+	overflow:hidden;
+}
+
+.foot-item {
+	overflow:hidden;
+}
+
+.foot-info {
+	float:left;
+	width:25%;
+	margin-bottom:80px;
+	margin-right:7%;
+	p {
+		padding-bottom:8px;
+	}
+}
+
+.foot-navmap {
+	width:68%;
+}
+
+.foot-wrap {
+	float:left;
+	width:15%;
+	margin-right:7%;
+	li {
+		padding-bottom:8px;
+		a {
+
+			text-decoration:none;
+			color:$branco;
+			&:hover {
+				color: $amarelo;
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+/* Header */
+.header {
+	color:$preto;
+	font-size:1em;
+	padding-top:50px;
+	padding-bottom:10px;
+}
+
+.logo {
+	width:25%;
+	display:inline-block;
+}
+
+.logo, .ipad-logo {
+	img {
+
+		height:44px;
+		width:44px;
+		padding:5px;
+		vertical-align:middle;
+	}
+	p {
+		display:inline-block;
+		font-weight:bold;
+		font-size:1.75em;
+		vertical-align:middle;
+	}
+	a {
+		color:$preto;
+		text-decoration:none;
+	}
+}
+
+.menu {
+	float:right;
+	li {
+		display:inline-block;
+		a {
+			display: block;
+			color:$preto;
+			text-decoration:none;
+			font-weight:bold;
+			font-size:1.2em;
+			text-align:center;
+			padding: 18px 0;
+			margin-left:70px;
+			&:hover {
+				color: $branco;
+			}
+		}
+	}
+}
+
+.menu-offset {
+	float:right;
+	padding-top:5px;
+}
+
+.menu-abrir,
+.menu-fechar {
+	background: none;
+	border: 0;
+	font-size: 1.6em;
+	outline: 0;
+	text-indent: -999em;
+}
+
+.menu-abrir {
+	border-bottom: .125em solid $preto;
+	border-top: .375em double $preto;
+	height: 0;
+	margin: 0.5em;
+	padding-top:.125em;
+	width:.75em;
+	&:hover {
+		border-bottom: .125em solid $branco;
+		border-top: .375em double $branco;
+	}
+}

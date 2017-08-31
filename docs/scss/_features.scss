@@ -1,0 +1,31 @@
+/* Features */
+.feat-texto, .cont-texto {
+	margin-bottom:60px;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	p {
+		text-align:center;
+	}
+}
+
+.card {
+	float:left;
+	margin-bottom:40px;
+	width:33%;
+}
+
+.card-icone {
+	float:left;
+	margin-right:5%;
+	width:20%;
+}
+
+.card-texto {
+	float:left;
+	width:70%;
+}
+
+.card-corpo {
+	color: lighten($preto, 60%);
+}

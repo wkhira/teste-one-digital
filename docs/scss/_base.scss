@@ -1,0 +1,65 @@
+/* Base */
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.clearfix {
+	overflow:auto;
+	zoom:1;
+}
+
+.container {
+	margin: 0 auto;
+	max-width:1280px;
+	min-width:240px;
+	width:70%;
+}
+
+.bg-amarelo {
+	background-color:$amarelo;
+}
+
+.bg-preto {
+	background-color:$preto;
+}
+
+.slider, .features, .contato, .footer {
+	padding-top:40px;
+}
+
+.slider-texto {
+	float:left;
+}
+
+.slider-texto, .slider-ipad {
+	width:40%;
+}
+
+.slider-titulo {
+	padding-top:50px;
+}
+
+.slider-titulo, .feat-titulo, .cont-titulo {
+	font-weight:bold;
+	font-size:1.75em;
+}
+
+.slider-subtitulo, .feat-subtitulo {
+	color: lighten($preto, 20%);
+}
+
+.slider-subtitulo, .feat-subtitulo, .card-titulo, .cont-subtitulo {
+	font-size:1.2em;
+}
+
+.slider-corpo {
+	color: lighten($preto, 30%);
+}
+
+.slider-corpo, .card-corpo, .foot-texto, .foot-item {
+	font-size:1em;
+}
+
+.slider-titulo, .slider-subtitulo, .slider-corpo, .feat-titulo, .feat-subtitulo, .card-corpo, .cont-titulo, .cont-subtitulo {
+	margin:25px 0;
+}

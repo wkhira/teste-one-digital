@@ -1,0 +1,64 @@
+/* Slider */
+.slider-icones {
+	a {
+		margin-right:30px;
+		margin-top:20px;
+		color:$preto;
+		&:hover {
+			color: $branco;
+		}
+	}
+}
+
+.slider-ipad {
+	float:right;
+	color:$amarelo;
+}
+
+.ipad-fundo {
+	float:right;
+	background-color:$branco;
+	width:315px;
+	height:470px;
+	border-radius: 20px;
+	margin-right:10%;
+
+}
+
+.ipad-tela {
+	position:relative;
+	background-color:$preto;
+	width:290px;
+	height:380px;
+	margin: 45px auto;
+}
+
+.ipad-logo {
+	position:relative;
+	height:auto;
+	width:53%;
+	padding:50% 24%;
+
+}
+
+.slider-bullets {
+	width:100%;
+}
+
+.bullets-wrap {
+	display:inline-block;
+	margin: 40px 46%;
+}
+
+.bullet {
+	display:inline-block;
+	background-color:$branco;
+	height:10px;
+	width:10px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.not-selected {
+	opacity: 0.7;
+}
